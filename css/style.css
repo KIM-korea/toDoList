@@ -1,0 +1,58 @@
+.hidden{
+    display: none;
+
+}
+
+body {
+    color:rgb(250, 234, 214);
+
+    background-image:url('../img/0.jpg');
+    background-color:rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+    height: 100vh;
+    margin: 0;
+    transition: background 1s ease-in-out;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: flex-start; /* 가로 중앙 정렬 (선택사항) */
+    gap: 400px; /* 요소 간 간격 */
+}
+
+.container h1{
+
+    margin: 0px;
+
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    width: 45%; /* 각 섹션의 너비를 45%로 설정 */
+    padding: 20px;
+    box-sizing: border-box; /* padding과 border가 너비에 포함되도록 설정 */
+    /* 텍스트 가운데 정렬 */
+}
+
+/* 필요시 각 섹션에 스타일 추가 가능 */
+.left-section {
+    background-color: rgb(143, 102, 139); /* 왼쪽 섹션 배경색 */
+}
+
+.right-section {
+    position: relative;
+    background-color: rgb(143, 102, 139); /* 오른쪽 섹션 배경색 */
+    top: 100px;
+    left:30px;
+}
+
+
